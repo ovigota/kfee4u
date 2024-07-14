@@ -1,1 +1,35 @@
 /* Aici vor fi stilurile pentru elementul main */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: -40px 0;
+    background-color: rgb(235, 165, 85);
+    border-radius: 25px;
+  }
+
+  .item {
+    text-align: center;
+    margin: 5px 40px; /* Adjust margin to add space between images */
+  }
+
+  .item img {
+    width: 50px; /* Set the image width */
+    height: 50px; /* Set the image height */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust gap between cards */
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .card {
+    border: 1px solid #000; /* Customize border as needed */
+    padding: 20px; /* Adjust padding inside cards */
+    text-align: center;
+  }
